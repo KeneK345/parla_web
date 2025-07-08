@@ -1,0 +1,91 @@
+.analise {
+    background-color: #f5f9e8;
+    min-height: 90vh;
+    padding: 30px 50px;
+    color: #183d18;
+  }
+  
+  .analise h1 {
+    background-color: #2a7e2c;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 0 0 30px 30px;
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .conteudo-analise {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .grafico-box {
+    background-color: #9dbf99;
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+  }
+  
+  .grafico-box img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .indicadores p {
+    font-weight: bold;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .bolinha {
+    background-color: #2a7e2c;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  .perfil-box {
+    background-color: #2a7e2c;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .foto {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    background-color: #f5f9e8;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .perfil-box button {
+    background-color: #0e3d0c;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .perfil-box button:hover {
+    background-color: #135517;
+  }
