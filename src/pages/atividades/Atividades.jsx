@@ -1,4 +1,5 @@
-import Header from "../header/Header"
+import Header from "../../src/components/header/Header"
+import './Atividades.css'
 const Atividades = () => {
     return (
         <>

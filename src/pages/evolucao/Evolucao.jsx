@@ -1,4 +1,4 @@
-import Header from "../header/Header";
+import Header from "../../components/header/Header";
 import grafico from "../../assets/grafico.jpeg";
 import pessoa from "../../assets/pessoa.jpeg";
 import './Evolucao.css';
