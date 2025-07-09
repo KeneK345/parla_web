@@ -1,0 +1,14 @@
+.optionButton {
+    background-color: #e9ae76;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: background 0.2s ease;
+    cursor: pointer;
+    }
+
+.optionButton:hover {
+    background-color: #cf9153;
+    }

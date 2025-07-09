@@ -1,23 +1,26 @@
-import Header from "../../src/components/header/Header"
-import './Atividades.css'
+import Header from "../../src/components/header/Header";
+import styles from './Atividades.module.css';
+
 const Atividades = () => {
     return (
         <>
-        <Header></Header>
-        <div>
-        <div id="gravacao">
-            <img src=".../assets/a"></img>
-            <img src=".../assets/gravacao"></img>
-            <button>Gravar</button>
+            <Header />
             <div>
-                <button id="start">Iniciar Gravação</button>
-                <button id="stop">Parar Gravação</button>
-                <audio id="audio" controls></audio>
+                <div className={styles.gravacao}>
+                    <img src="../assets/a" alt="imagem a" />
+                    <img src="../assets/gravacao" alt="imagem gravacao" />
+                    <button>Gravar</button>
+                    <div>
+                        <button className={styles.start}>Iniciar Gravação</button>
+                        <button className={styles.stop}>Parar Gravação</button>
+                        <audio id="audio" controls></audio>
+                    </div>
+                </div>
+                <img src="../assets/parlinha.jpeg" alt="parlinha" />
+                <button>Click</button>
             </div>
-        </div>
-        <img src=".../assets/parlinha.jpeg"></img>
-        <button>Click</button>
-        </div>
         </>
-    )
-}; export default Atividades;
+    );
+};
+
+export default Atividades;

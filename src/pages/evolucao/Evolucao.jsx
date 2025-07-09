@@ -1,26 +1,26 @@
 import Header from "../../components/header/Header";
 import grafico from "../../assets/grafico.jpeg";
 import pessoa from "../../assets/pessoa.jpeg";
-import './Evolucao.css';
+import styles from './Evolucao.module.css';
 
 const Evolucao = () => {
     return (
         <>
             <Header />
-            <div className="analise">
+            <div className={styles.analise}>
                 <h1>MINHA ANÁLISE</h1>
-                <div className="conteudo-analise">
-                    <div className="grafico-box">
-                        <div className="indicadores">
-                            <p>Tempo no site: <span className="bolinha"></span></p>
-                            <p>Total de erros: <span className="bolinha"></span></p>
-                            <p>Nº Atividades: <span className="bolinha"></span></p>
+                <div className={styles.conteudoAnalise}>
+                    <div className={styles.graficoBox}>
+                        <div className={styles.indicadores}>
+                            <p>Tempo no site: <span className={styles.bolinha}></span></p>
+                            <p>Total de erros: <span className={styles.bolinha}></span></p>
+                            <p>Nº Atividades: <span className={styles.bolinha}></span></p>
                         </div>
                         <img src={grafico} alt="Gráfico de evolução" />
                     </div>
 
-                    <div className="perfil-box">
-                        <img src={pessoa} alt="Pessoa" className="foto" />
+                    <div className={styles.perfilBox}>
+                        <img src={pessoa} alt="Pessoa" className={styles.foto} />
                         <button>imprimir boletim</button>
                         <button>verificar atividades</button>
                     </div>

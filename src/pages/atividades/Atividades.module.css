@@ -1,0 +1,46 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    }
+.gravacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin: 20px;
+    background-color: #f2f2f2;
+    padding: 16px;
+    border-radius: 12px;
+    }
+
+.start {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    }
+
+.stop {
+    background-color: #dc3545;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+
+.start:hover {
+    background-color: #218838;
+}
+
+.stop:hover {
+    background-color: #c82333;
+}
+

@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  }
+
+.analise {
+  text-align: center;
+  padding: 20px;
+}
+
+.conteudoAnalise {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
+  }
+
+.grpaficoBox {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.indicadores {
+  margin-bottom: 15px;
+  }
+
+.bolinha {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #28a745;
+  margin-left: 8px;
+  }
+
+.perfilBox {
+  background-color: #e7e7e7;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.foto {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  }
+

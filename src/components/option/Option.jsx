@@ -1,5 +1,13 @@
-const Option = (num) => {
+import styles from './Option.module.css';
+
+const Option = ({ num, id }) => {
     return (
-        <button>opções {num}</button>
-    )
-}; export default Option
+        <button className={styles.optionButton} id={id}>
+            opção {num}
+        </button>
+    );
+};
+
+export default Option;
+
+

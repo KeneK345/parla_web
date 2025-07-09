@@ -1,0 +1,61 @@
+.header {
+    position: relative;
+    background: linear-gradient(to bottom, #0d2606, #1a5f1a);
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    .logo {
+    width: 100px;
+    height: auto;
+    padding: 1.5em;
+    border-radius: 8px;
+    will-change: filter;
+    transition: filter 300ms;
+    }
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+    }
+
+.logoReact:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+    }
+
+.menu {
+    display: flex;
+    gap: 20px;
+    }
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background 0.3s;
+    font-weight: bold;
+    }
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    }
+
+.personagemBtn {
+    background-color: #d4df31;
+    color: black;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-weight: bold;
+    }
+
+.headerBg {
+    display: none;                                                                                         
+}
